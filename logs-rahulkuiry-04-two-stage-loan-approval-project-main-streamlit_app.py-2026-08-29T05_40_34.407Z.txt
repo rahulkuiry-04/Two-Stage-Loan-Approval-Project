@@ -1,0 +1,53 @@
+
+[     UTC     ] Logs for rahulkuiry-04-two-stage-loan-approval-proj-streamlit-app-rpd7ls.streamlit.app/
+────────────────────────────────────────────────────────────────────────────────────────
+[05:37:31] 🖥 Provisioning machine...
+[05:37:31] 🎛 Preparing system...
+[05:37:31] ⛓ Spinning up manager process...
+[05:16:30] 🚀 Starting up repository: 'two-stage-loan-approval-project', branch: 'main', main module: 'streamlit_app.py'
+[05:16:30] 🐙 Cloning repository...
+[05:16:31] 🐙 Cloning into '/mount/src/two-stage-loan-approval-project'...
+
+[05:16:31] 🐙 Cloned repository!
+[05:16:31] 🐙 Pulling code changes from Github...
+[05:16:32] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+Using Python 3.14.7 environment at /home/adminuser/venv
+  × No solution found when resolving dependencies:
+  ╰─▶ Because there is no version of numba==0.63.0b1 and shap==0.50.0 depends
+      on numba==0.63.0b1, we can conclude that shap==0.50.0 cannot be used.
+      And because you require shap==0.50.0, we can conclude that your
+      requirements are unsatisfiable.
+Checking if Streamlit is installed
+Installing rich for an improved exception logging
+Using uv pip install.
+Using Python 3.14.7 environment at /home/adminuser/venv
+Resolved 4 packages in 102ms
+Prepared 4 packages in 108ms
+Installed 4 packages in 13ms
+ + markdown-it-py==4.2.0[2026-08-29 05:16:34.673282] 
+ + mdurl==0.1.2
+ + pygments==2.21.0
+ + rich==15.0.0
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+
+──────────────────────────────────────── pip ───────────────────────────────────────────
+
+Using standard pip install.
+Collecting streamlit>=1.18 (from -r /mount/src/two-stage-loan-approval-project/requirements.txt (line 2))
+  Downloading streamlit-1.62.0-py3-none-any.whl.metadata (10 kB)
+Collecting pandas==2.3.0 (from -r /mount/src/two-stage-loan-approval-project/requirements.txt (line 3))
+  Downloading pandas-2.3.0.tar.gz (4.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.5/4.5 MB 73.9 MB/s eta 0:00:00[2026-08-29 05:16:36.337002] 
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing metadata (pyproject.toml): started

@@ -103,7 +103,5 @@ RMSE ≈ 3,339,722 · MAE ≈ 2,518,988 · R² = 0.8700
 
 Re-run `python refactored_pipeline.py` to reproduce these numbers exactly (fixed `RANDOM_STATE = 10`).
 
-## 🔗 Live Demo
 
-[Try it here](https://rahulkuiry-04-two-stage-loan-approval-proj-streamlit-app-rpd7ls.streamlit.app/)
 
